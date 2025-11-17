@@ -15,6 +15,13 @@ class hasonlit(unittest.TestCase):
     def test_two_positive(self):
         fgv = fibo(4)
         print(fgv)
+    def test_two(self):
+        fgv = fibo(8)
+        print(fgv)
+    def test_three(self):
+        fgv = fibo(3)
+        print(fgv)
+
     
 unittest.main()
     
