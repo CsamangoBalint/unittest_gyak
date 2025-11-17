@@ -16,10 +16,10 @@ class hasonlit(unittest.TestCase):
         fgv = fibo(4)
         print(fgv)
     def test_two(self):
-        fgv = fibo(8)
+        fgv = fibo(-2)
         print(fgv)
     def test_three(self):
-        fgv = fibo(3)
+        fgv = fibo(-3)
         print(fgv)
 
     
