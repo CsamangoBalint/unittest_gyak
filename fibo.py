@@ -13,7 +13,7 @@ def fibo(n):
     
 class hasonlit(unittest.TestCase):
     def test_two_positive(self):
-        fgv = fibo(4)
+        fgv = fibo(0.1)
         print(fgv)
     def test_two(self):
         fgv = fibo(-2)
